@@ -1,0 +1,22 @@
+{
+  "name": "my-skills",
+  "description": "Generalized dev-practice skills: Conventional Commits, Conventional Branches, and modular (typed input -> typed output) service units. Language-agnostic; defers to each repo's own conventions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Furkan Edizkan",
+    "email": "furkandedizkan@gmail.com"
+  },
+  "homepage": "https://github.com/FurkanEdizkan/My-Skills",
+  "repository": "https://github.com/FurkanEdizkan/My-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "git",
+    "commits",
+    "branches",
+    "conventional-commits",
+    "conventional-branches",
+    "architecture",
+    "modular",
+    "contract-first"
+  ]
+}

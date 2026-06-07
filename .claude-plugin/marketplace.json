@@ -1,0 +1,27 @@
+{
+  "name": "furkan-skills",
+  "owner": {
+    "name": "Furkan Edizkan",
+    "email": "furkandedizkan@gmail.com"
+  },
+  "description": "A small library of generalized, project-agnostic Claude Code skills.",
+  "plugins": [
+    {
+      "name": "my-skills",
+      "source": "./",
+      "description": "Generalized dev-practice skills: Conventional Commits, Conventional Branches, and modular (typed input -> typed output) service units. Language-agnostic; defers to each repo's own conventions.",
+      "version": "1.0.0",
+      "keywords": [
+        "git",
+        "commits",
+        "branches",
+        "conventional-commits",
+        "conventional-branches",
+        "architecture",
+        "modular",
+        "contract-first"
+      ],
+      "category": "development"
+    }
+  ]
+}
