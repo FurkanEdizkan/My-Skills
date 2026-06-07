@@ -32,13 +32,13 @@ Installs all skills at once and keeps them updatable. In Claude Code:
 /plugin marketplace add FurkanEdizkan/My-Skills
 
 # 2. Install the bundle
-/plugin install skills@claude-skills
+/plugin install skills@furkanedizkan-skills
 ```
 
 The skills then auto-activate by description, or you can invoke one explicitly as
 `/skills:<skill-name>` (e.g. `/skills:conventional-commits`).
 
-To update later: `/plugin marketplace update claude-skills`.
+To update later: `/plugin marketplace update furkanedizkan-skills`.
 
 ### Option B — copy a single skill folder
 
@@ -67,7 +67,7 @@ Copied this way the skill is invoked by its bare name (e.g.
 
 ```text
 .claude-plugin/
-  marketplace.json   # marketplace "claude-skills" → lists the bundle plugin
+  marketplace.json   # marketplace "furkanedizkan-skills" → lists the bundle plugin
   plugin.json        # plugin "skills" → the bundle (source: repo root)
 skills/
   <skill-name>/
