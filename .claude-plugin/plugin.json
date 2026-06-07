@@ -1,5 +1,5 @@
 {
-  "name": "my-skills",
+  "name": "skills",
   "description": "Generalized dev-practice skills: Conventional Commits, Conventional Branches, and modular (typed input -> typed output) service units. Language-agnostic; defers to each repo's own conventions.",
   "version": "1.0.0",
   "author": {
