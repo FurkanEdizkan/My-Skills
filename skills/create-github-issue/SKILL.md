@@ -38,11 +38,13 @@ Run these read-only checks first:
 2. `gh api user -q .login` — the current user's login. **This is the assignee** for every issue and PR (`@me`).
 3. `git fetch origin` — sync refs.
 4. **Identify the integration branch** (the PR target). In order of preference:
-   - If the repo follows a two-trunk model (e.g. `test` + `main`, see the project's
-     `docs/BRANCHING.md` or `CONTRIBUTING.md`), the integration branch is `test`.
+   - If the repo follows a three-tier `dev → test → main` model (see the `three-tier-git-flow`
+     skill, `docs/BRANCHING.md`, or `CONTRIBUTING.md`), the integration branch is `dev` — feature
+     branches cut from and PR back into `dev`; promotion up to `test`/`main` is a separate step.
+   - Else if the repo follows a two-trunk model (e.g. `test` + `main`), the integration branch is `test`.
    - Otherwise it's the default branch (usually `main`).
-   - If the two-trunk model is documented but `test` is missing on origin, surface that to the user
-     rather than silently creating it — branch creation is a maintainer decision.
+   - If the model is documented but the integration branch is missing on origin, surface that to the
+     user rather than silently creating it — branch creation is a maintainer decision.
 
 State one line back to the user: assignee, integration branch, then continue.
 
