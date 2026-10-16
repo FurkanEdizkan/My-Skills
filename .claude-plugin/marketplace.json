@@ -9,8 +9,8 @@
     {
       "name": "skills",
       "source": "./",
-      "description": "Generalized dev-practice skills: Conventional Commits, Conventional Branches, modular (typed input -> typed output) service units, a plan->issue->branch->PR GitHub workflow, and a three-tier (dev -> test -> main) promotion git workflow. Language-agnostic; defers to each repo's own conventions.",
-      "version": "1.1.0",
+      "description": "Generalized dev-practice skills: Conventional Commits, Conventional Branches, modular (typed input -> typed output) service units, a plan->issue->branch->PR GitHub workflow, a three-tier (dev -> test -> main) promotion git workflow, and VERSION-file tracking with suggested minor/major bumps, changelogs and release tags. Language-agnostic; defers to each repo's own conventions.",
+      "version": "1.2.0",
       "keywords": [
         "git",
         "commits",
@@ -26,7 +26,10 @@
         "branch-protection",
         "ci-cd",
         "release",
-        "promotion"
+        "promotion",
+        "semver",
+        "changelog",
+        "versioning"
       ],
       "category": "development"
     }
